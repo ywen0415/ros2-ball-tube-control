@@ -1,0 +1,49 @@
+# ROS 2 / colcon
+/build/
+/install/
+/log/
+/.colcon/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+compile_commands.json
+CMakeUserPresets.json
+Testing/
+
+# C++ build artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.d
+*.gcda
+*.gcno
+*.gcov
+
+# ROS recordings and runtime data
+rosbag2_*/
+*.db3
+*.mcap
+
+# Editors and temporary files
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+*.orig
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
